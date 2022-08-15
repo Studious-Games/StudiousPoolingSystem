@@ -1,0 +1,16 @@
+{
+    "name": "StudiousPoolingAssembly",
+    "rootNamespace": "Studious.Pooling",
+    "references": [
+        "GUID:914d38b8576f0b5489b541c11c9093e7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

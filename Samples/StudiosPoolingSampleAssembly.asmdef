@@ -1,0 +1,16 @@
+{
+    "name": "StudiosPoolingSampleAssembly",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9aa4094781f9b0a41aa8006ca3d82b3a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
