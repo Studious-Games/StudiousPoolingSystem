@@ -77,13 +77,15 @@ To make these scripts use the Object Pooling system, we can make small changes t
 ```CS
 using Studious.Pooling;
 
+public class Bullet : MonoBehaviour
+{
     private ObjectPool<Bullet> _objectPool;
 
     private void Awake()
     {
         _objectPool = new ObjectPool<Bullet>(_bulletPrefab, 10);
     }
-
+}
 ```
 
 This change allows the pool to be setup, where we pass in the prefab, and the quantity that we wish to instantiate into the pool before we begin to use it. We now need to make one more change to the BulletSpawn script, so that we use the ObjectPool and not Instantiate.
