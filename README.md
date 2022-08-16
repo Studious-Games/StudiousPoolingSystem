@@ -150,6 +150,6 @@ public class Bullet : MonoBehaviour, IPoolable<Bullet>
 }
 ```
 
-The code here is self explanatory, and ensures that the bullet stays alive for the time it is required, naturally you would add the code to then check if it hits what it needs to hit, and the return it to the pool. THe example above is just an example that keep it alive for a period of time before we return it back to the Object Pool.
+The code here is self explanatory, and ensures that the bullet stays alive for the time it is required, naturally you would add the code to then check if it hits what it needs to hit, and then return it to the pool. THe example above is just an example that keep it alive for a period of time before we return it back to the Object Pool.
 
 
