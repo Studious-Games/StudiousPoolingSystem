@@ -7,9 +7,9 @@
   "keywords": [
     "unity"
   ],
-  "documentationUrl": "",
-  "changelogUrl": "",
-  "licensesUrl": "",
+  "documentationUrl": "https://github.com/Studious-Games/StudiousPoolingSystem/blob/master/README.md",
+  "changelogUrl": "https://github.com/Studious-Games/StudiousPoolingSystem/blob/master/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Studious-Games/StudiousPoolingSystem/blob/master/LICENSE.md",
   "hideInEditor": false,
   "author": {
     "name": "Studious Games"
