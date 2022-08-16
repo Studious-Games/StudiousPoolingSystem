@@ -77,6 +77,8 @@ To make these scripts use the Object Pooling system, we can make small changes t
 ```CS
 using Studious.Pooling;
 
+    private ObjectPool<Bullet> _objectPool;
+
     private void Awake()
     {
         _objectPool = new ObjectPool<Bullet>(_bulletPrefab, 10);
