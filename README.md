@@ -36,7 +36,7 @@ For example, in an FPS you might have a Gun Script like the following, where a b
 
 ```CS
 
-public void class BulletSpawn
+public void class BulletSpawn : MonoBehaviour
 {
     [SerializeField] private Bullet _bulletPrefab;
     [SerializeField] private Transform _spawnPosition;
@@ -77,7 +77,7 @@ To make these scripts use the Object Pooling system, we can make small changes t
 ```CS
 using Studious.Pooling;
 
-public class Bullet : MonoBehaviour
+public class BulletSpawn : MonoBehaviour
 {
     private ObjectPool<Bullet> _objectPool;
 
